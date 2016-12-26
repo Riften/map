@@ -46,7 +46,7 @@ class invalid_iterator : public exception
 protected:
 	const std::string variant;
 public:
-	invalid_iterator(const std::string &ec = std :: string("")) : variant(ec) { detail = "error : invalid iterator.";}
+	invalid_iterator(const std::string &ec = std :: string("")) : variant(ec) { detail = "wcx bufu.";}
 	
 	virtual std::string what() { return variant + " " + detail;}
 };
